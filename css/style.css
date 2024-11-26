@@ -210,34 +210,51 @@ body {
 /* SECTION 3 */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
-.team h2 {
+.team-head {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-list {
   list-style: none;
+  display: flex;
+  gap: 24px;
 }
 
-.team-list li {
+.team-member {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
-.team-list h3 {
+.team-member img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.team-member-info {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
-.team-list p {
+.team-position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
