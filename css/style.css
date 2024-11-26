@@ -325,12 +325,19 @@ body {
 
 /* FOOTER */
 
-footer {
+.footer {
   background-color: #2e2f42;
   text-align: center;
+  padding: 100px 0;
 }
 
-footer .logo {
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer_logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -339,17 +346,21 @@ footer .logo {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-footer .logo span {
+.footer_span {
   color: #f4f4fd;
 }
 
-footer p {
+.footer_paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 264px;
+  margin: 0 auto;
 }
 
 * {
