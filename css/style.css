@@ -9,6 +9,15 @@ header {
   background-color: #1b1b3a;
   color: white;
   z-index: 10;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .logo {
@@ -20,10 +29,22 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 76px;
+}
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .logo-span {
   color: #2e2f42;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
 }
 
 .nav-link {
@@ -32,6 +53,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
   text-decoration: none;
 }
 
@@ -58,6 +80,8 @@ header {
 }
 
 .contact-list {
+  display: flex;
+  gap: 40px;
   list-style: none;
 }
 
