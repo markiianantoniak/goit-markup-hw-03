@@ -6,10 +6,10 @@ body {
 }
 
 .header {
-  background-color: #1b1b3a;
   color: white;
   z-index: 10;
   border-bottom: 1px solid #e7e9fc;
+  max-height: 72px;
 }
 .container {
   display: flex;
@@ -79,7 +79,7 @@ body {
   font-style: normal;
 }
 
-.contact-list {
+.contacts-list {
   display: flex;
   gap: 40px;
   padding: 0;
