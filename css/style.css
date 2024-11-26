@@ -11,7 +11,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
   max-height: 72px;
 }
-.container {
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,7 +107,7 @@ body {
   padding: 188px 0;
   text-align: center;
 }
-.container {
+.order .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
