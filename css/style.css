@@ -151,15 +151,31 @@ body {
 /* SECTION 2 */
 .services {
   background-color: #f4f4f4;
+  padding: 120px 0;
 }
 
 .services h2 {
   font-size: 36px;
   color: #2e2f42;
+  overflow: hidden;
+}
+
+.services .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .service-list {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.service-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .service-list li {
@@ -172,7 +188,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .service-list p {
