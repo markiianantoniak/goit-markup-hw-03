@@ -29,7 +29,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   margin-right: 76px;
 }
@@ -55,6 +55,7 @@ body {
   color: #2e2f42;
   padding: 24px 0;
   text-decoration: none;
+  display: block;
 }
 
 .nav-link:hover,
@@ -121,12 +122,14 @@ body {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
   text-align: center;
 }
 
 .order-button {
   display: block;
   min-width: 169px;
+  margin: 0 auto;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -183,10 +186,6 @@ body {
 
 .service-item {
   width: calc((100% - 72px) / 4);
-}
-
-.service-list li {
-  background-color: #ffffff;
 }
 
 .service-list h3 {
@@ -271,7 +270,8 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -295,14 +295,12 @@ body {
 
 .portfolio_item {
   width: calc((100% - 48px) / 3);
-  margin-right: 24px;
 }
 
 .portfolio_item_container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  text-align: center;
 }
 
 .portfolio_name {
@@ -327,7 +325,6 @@ body {
 
 .footer {
   background-color: #2e2f42;
-  text-align: center;
   padding: 100px 0;
 }
 
@@ -360,7 +357,6 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 264px;
-  margin: 0 auto;
 }
 
 * {
@@ -415,12 +411,6 @@ img {
   font-weight: bold;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #333;
-}
-
 .section {
   padding: 120px 0;
   width: 100%;
@@ -432,6 +422,5 @@ h2 {
 }
 
 p {
-  margin-bottom: 10px;
   line-height: 1.6;
 }
